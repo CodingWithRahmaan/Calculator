@@ -1,5 +1,6 @@
 function btnClick(val) {
-    let cal = document.getElementById("cal");
+    let cal = document.getElementById("calculation");
+
     // let lsatChar = cal.value[cal.value.slice (- 1)];
     
     if (val === "C") {
@@ -17,3 +18,4 @@ function btnClick(val) {
         cal.value += val;
     }
 }
+
